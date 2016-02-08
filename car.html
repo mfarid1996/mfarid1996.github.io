@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Farid">
 
-    <title>Projects</title>
+    <title>RC Tank</title>
 
 	<!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -75,67 +75,40 @@
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Heading -->
+        <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Projects</h1>
+                <h1 class="page-header">Home-made RC Car
+                    <small>April 2015</small>
+                </h1>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Project One -->
+        <!-- Portfolio Item Row -->
         <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="images/tank700x300.jpg" alt="">
-                </a>
+            <div class="col-md-4">
+                <h3 style="margin-top:110px">Project Description</h3>
+                <p>As a final project for a high school computer science class, I built a remote controlled car in the span of 4 hours. The mechanical components of the car are comprised completely of regular household items. To control the car, I configured an on board arduino to receive communications through a bluetooth module paired with a smartphone.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>The frame of the car consists of wooden barbeque skewers bound together in masking tape. Each wheel is a pair of gatorade bottle caps taped together and pierced through the centre </li>
+                    <li>The two motors were taken from old/broken toys. The arduino could not provide enough current to power them. Instead, I borrowed 2 relays from the school shop so that the motors could be powered through a more sufficient Lithium Polymer battery.</li>
+                    
+                </ul>
+                <br></br>
+                <br></br>
+                <p>Unfortunately, the two motors I was able to find were not identical, and rn at different speeds when connected to the same power source. I was able to remedy this to some extent by using PWM signals from the arduino to run the faster motor for only a fraction of the time. However, even this solution wasnt optimal -- due to the time required for the switch of the mechanical relay, the on/off signals could not be altered at a high frequency; this lead to the car driving in a zig zag pattern to go straight. If I make edits to the car, I will likely find a purely electronic relay, such as a MOSFET, to use instead.</p>
             </div>
-            <div class="col-md-5">
-                <h3>RC Tank</h3>
-                <h4>Ongoing</h4>
-                <p>An entirely 3D printed and laser cut, remote-controlled tank.</p>
-                <a class="btn btn-primary" href="tank2">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="col-md-8">
+                <center>
+                    <img class="img-responsive" src="images/tank750x500.jpg" alt="">
+                </center>
             </div>
-        </div>
-        <!-- /.row -->
+			
+			<br>
+            
 
-        <hr>
-
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="images/quad700x300.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Quadcopter</h3>
-                <h4>July 2015</h4>
-                <p>A drone I put together in my spare time over summer.</p>
-                <a class="btn btn-primary" href="quad">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Home-made RC Car</h3>
-                <h4>May 2015</h4>
-                <p>A remote controlled car assembled entirely of common household items.</p>
-                <a class="btn btn-primary" href="car">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
 
         <!-- Footer -->
         <footer>
